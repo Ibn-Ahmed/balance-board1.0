@@ -1,8 +1,12 @@
+import kidboard1 from "../../assets/kidboard1.webp";
+import kidboard2 from "../../assets/kidboard2.webp";
+import kidboard3 from "../../assets/kidboard3.webp";
+import kidboard4 from "../../assets/kidboard4.webp";
 const images = [
-  { src: "/src/assets/kidboard1.webp", alt: "Kind spielt mit Balance Board 1" },
-  { src: "/src/assets/kidboard2.webp", alt: "Kind spielt mit Balance Board 2" },
-  { src: "/src/assets/kidboard3.webp", alt: "Kind spielt mit Balance Board 3" },
-  { src: "/src/assets/kidboard4.webp", alt: "Kind spielt mit Balance Board 4" },
+  { src: kidboard1, alt: "Kind spielt mit Balance Board 1" },
+  { src: kidboard2, alt: "Kind spielt mit Balance Board 2" },
+  { src: kidboard3, alt: "Kind spielt mit Balance Board 3" },
+  { src: kidboard4, alt: "Kind spielt mit Balance Board 4" },
 ];
 
 export default function ProductGallery() {
